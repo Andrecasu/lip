@@ -25,3 +25,4 @@ let () = match read_line () with
     Some s -> let l = belongsTo (explode s) in
     print_endline (string_of_list s l)
   | None -> print_endline "no winner"
+
